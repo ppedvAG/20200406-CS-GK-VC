@@ -32,6 +32,12 @@
 - [x] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
 - [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 
+VS Installer > installierte Version ändern > sprachpakete
+
+Ddouble todo bei .Parse & Culture Info
+
+Demo-bit
+
 ## M30 | ARRAYS & CONTROLS
 
 - [ ] Arrays

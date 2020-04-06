@@ -1,6 +1,6 @@
 # VISUAL STUDIO SHORTCUTS (FREQUENTLY USED)
 
-#### CODE
+## CODE
 
 | shortcut | effect |
 | --- | --- |
@@ -12,7 +12,7 @@
 | `ctrl s` | save file |
 | `ctrl shift s` | save all files |
 
-#### REFACTORING
+## REFACTORING
 
 | shortcut | effect |
 | --- | --- |
@@ -21,18 +21,7 @@
 | `ctrl k d` | format code |
 | `ctrl r r` | rename |
 
-#### HELPERS
-
-| shortcut | effect |
-| --- | --- |
-| `ctrl .` | show quick fix |
-| `alt enter` | show quick fix |
-| `ctrl leertaste` | force intellisense |
-| `f12` | go to definition |
-| `ctrl -` | go back |
-| `ctrl shift -` | go forward |
-
-#### DEBUGGING
+## DEBUGGING
 
 | shortcut | effect |
 | --- | --- |
@@ -41,14 +30,25 @@
 | `f11` | step into |
 | `f10` | step over |
 
-#### BUILD
+## HELPERS
+
+| shortcut | effect |
+| --- | --- |
+| `ctrl .` | show quick fix |
+| `alt enter` | show quick fix |
+| `ctrl space` | force intellisense |
+| `f12` | go to definition |
+| `ctrl -` | go back |
+| `ctrl shift -` | go forward |
+
+## BUILD
 
 | shortcut | effect |
 | --- | --- |
 | `ctrl b` | build project |
 | `ctrl shift b` | build solution |
 
-#### VISUAL STUDIO NAVIGATION
+## VISUAL STUDIO NAVIGATION
 
 | shortcut | effect |
 | ------- | ------ |
