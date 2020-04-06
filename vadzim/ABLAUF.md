@@ -1,36 +1,36 @@
 # ABLAUF VOM KURS
 
+[git-commands](GIT-COMMANDS.md)
+
+[vscode-shortcuts](VS-SHORTCUTS.md)
+
+[csharp-snippets](CSHARP-SNIPPETS.md)
+
 ## M00 | WARMING UP
 
 - [x] Greeter
 - [x] VS
-- [ ] Git
+- [x] Git
 
 ## M10 | GETTING STARTED
 
-- [ ] Intro
+- [x] Intro
 - [ ] Ecosystem
-- [ ] .NET
-- [ ] Console
-
-DConsole
-
-M1HelloWorld
+- [x] .NET
+- [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
+- [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
 
 ## M20 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] bool
-- [ ] string
-- [ ] int
-- [ ] double
-- [ ] Operatoren
-- [ ] Casting
-- [ ] Enums
-
-Dbool, Dstring, Dint, Ddouble, Denum
-
-M2MiniRechner
+- [x] Datentypen
+- [x] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
+- [x] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
+- [x] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
+- [x] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
+- [x] Operatoren
+- [x] Casting
+- [x] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
+- [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 
 ## M30 | ARRAYS & CONTROLS
 
