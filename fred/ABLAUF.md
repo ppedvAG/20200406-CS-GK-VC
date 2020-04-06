@@ -5,6 +5,7 @@
 - [ ] Greeter
 - [ ] VS
 - [ ] Git
+- [ ] Markdown, Erweiterung Markdown Editor
 
 ## M10 | GETTING STARTED
 

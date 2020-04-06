@@ -2,8 +2,8 @@
 
 ## M00 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
+- [x] Greeter
+- [x] VS
 - [ ] Git
 
 ## M10 | GETTING STARTED
