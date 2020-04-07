@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-bits", "Demo-bits\Demo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3Zufallszahl", "M3Zufallszahl\M3Zufallszahl.csproj", "{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Methods", "Demo-Methods\Demo-Methods.csproj", "{BC3E5ABE-6500-4280-B8F7-2BAF44CDBB34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC3E5ABE-6500-4280-B8F7-2BAF44CDBB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC3E5ABE-6500-4280-B8F7-2BAF44CDBB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC3E5ABE-6500-4280-B8F7-2BAF44CDBB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC3E5ABE-6500-4280-B8F7-2BAF44CDBB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

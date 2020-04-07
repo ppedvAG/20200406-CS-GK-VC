@@ -40,15 +40,12 @@ Demo-bits
 
 ## M30 | ARRAYS & CONTROLS
 
-- [ ] Arrays
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-
-DArray, DRandom
-
-M3Zahlenratespiel
+- [x] Arrays
+- [x] if else
+- [x] for
+- [x] while & do while
+- [x] switch
+- [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
 
 ## M40 | FUNCTIONS
 
@@ -57,8 +54,7 @@ M3Zahlenratespiel
 - [ ] return
 - [ ] overloads
 - [ ] out & ref args
-
-DMethods
+- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
 
 ## M50 | CLASSES & OOP
 
