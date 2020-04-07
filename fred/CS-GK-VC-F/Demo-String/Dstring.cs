@@ -31,9 +31,11 @@ namespace Demo_String
 
 
             //+++++++++++++++++++++++++++++++++++++++++++++++++++++ Variante 2
-            Console.WriteLine("\n ### string literals() ### ");
-            Console.WriteLine("Variante 2: $\"some text {expression}\" - interpolated strings");
-            string Satz = $"Stadt + Alter is string: {Alter + Stadt is string} und noch ein bisschen text {true} ";
+            // Hier kann beliebig Text und Variablen gemischt werden, auch Integer - wird von Vadzim empfohlen
+            Console.WriteLine("\n ### string literals() ### ");            
+            Console.WriteLine("interpolated strings Variante 2: $\"some text {expression}\" - interpolated strings");
+            int Nummer1 = 15;
+            string Satz = $"Stadt + Alter is string: {Alter + Stadt is string} und noch {Nummer1} ein bisschen text {true} ";
             Console.WriteLine(Satz);
 
             //+++++++++++++++++++++++++++++++++++++++++++++++++++++
