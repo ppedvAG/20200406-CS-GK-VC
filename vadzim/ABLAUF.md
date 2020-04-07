@@ -36,7 +36,7 @@ VS Installer > installierte Version ändern > sprachpakete
 
 Ddouble todo bei .Parse & Culture Info
 
-Demo-bit
+Demo-bits
 
 ## M30 | ARRAYS & CONTROLS
 

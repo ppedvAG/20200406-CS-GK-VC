@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M2MiniRechner", "M2MiniRech
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-bits", "Demo-bits\Demo-bits.csproj", "{D0B13621-C58E-47B1-9F1A-204869A5E42F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M3Zufallszahl", "M3Zufallszahl\M3Zufallszahl.csproj", "{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D0B13621-C58E-47B1-9F1A-204869A5E42F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0B13621-C58E-47B1-9F1A-204869A5E42F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0B13621-C58E-47B1-9F1A-204869A5E42F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F438A89F-1E43-4F0B-B9F8-CCADDBB395FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

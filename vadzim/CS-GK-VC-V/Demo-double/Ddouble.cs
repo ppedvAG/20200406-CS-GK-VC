@@ -35,6 +35,8 @@ namespace Demo_double
             double dblFromPointNr = double.Parse(dblAsString2, System.Globalization.CultureInfo.InvariantCulture); // *todo
             Console.WriteLine($"dblFromPointNr: {dblFromPointNr}");
 
+            // https://docs.microsoft.com/en-us/dotnet/api/system.globalization.cultureinfo.invariantculture?view=netframework-4.8&source=docs
+
             Console.ReadKey();
         }
     }

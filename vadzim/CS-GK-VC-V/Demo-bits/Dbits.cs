@@ -10,12 +10,15 @@ namespace Demo_bits
     {
         static void Main(string[] args)
         {
+
+            // in SPS lässt es sich leict über int.2 ermitteln
+
             // gesucht wird nach dem dritten Bit im Integer
 
             int myInt1 = 0b_0000_0000_0000_0000_0000_0000_0000_1011;
             int myInt2 = 0b_0000_0000_0000_0000_0000_0000_0000_0100;
 
-            var bit3ByInt1 = (myInt1 & (1 << 2)) != 0;
+            var bit3ByInt1 = (myInt1 & (1 << 2)) != 0; // False, also an der dritten Stelle steht eine Null
             Console.WriteLine($"bit3ByInt1: {bit3ByInt1}");
             var bit3ByInt2 = (myInt2 & (1 << 2)) != 0;
             Console.WriteLine($"bit3ByInt2: {bit3ByInt2}");
@@ -41,6 +44,7 @@ namespace Demo_bits
             Console.ReadKey();
 
             // https://stackoverflow.com/questions/4854207/get-a-specific-bit-from-byte
+            // https://docs.microsoft.com/de-de/dotnet/csharp/language-reference/operators/bitwise-and-shift-operators
 
         }
     }

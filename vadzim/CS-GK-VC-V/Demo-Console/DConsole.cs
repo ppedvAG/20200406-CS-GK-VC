@@ -12,6 +12,7 @@ namespace Demo_Console
         {
             // Referenz zur Klasse Console
             // https://docs.microsoft.com/de-de/dotnet/api/system.console?view=netframework-4.8
+            // https://docs.microsoft.com/en-us/dotnet/api/system.console?view=netframework-4.8
 
             // ==================================================================
             Console.WriteLine("\n ### Console.WriteLine() ### ");
