@@ -49,22 +49,22 @@ Demo-bits
 
 ## M40 | FUNCTIONS
 
-- [ ] arguments
-- [ ] parameters
-- [ ] return
-- [ ] overloads
-- [ ] out & ref args
-- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
+- [x] arguments
+- [x] parameters
+- [x] return
+- [x] overloads
+- [x] out & ref args
+- [x] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
 
 ## M50 | CLASSES & OOP
 
-- [ ] constructor
-- [ ] fields
-- [ ] props
-- [ ] class methods
-- [ ] access modifier
-- [ ] inctances / objects
-- [ ] destructor
+- [x] constructor
+- [x] fields
+- [x] props
+- [x] class methods
+- [x] access modifier
+- [x] inctances / objects
+- [x] destructor
 
 DLibrary, DLibraryConsumer
 
