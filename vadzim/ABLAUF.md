@@ -1,52 +1,51 @@
 # ABLAUF VOM KURS
 
+[git-commands](GIT-COMMANDS.md)
+
+[vscode-shortcuts](VS-SHORTCUTS.md)
+
+[csharp-snippets](CSHARP-SNIPPETS.md)
+
 ## M00 | WARMING UP
 
 - [x] Greeter
 - [x] VS
-<<<<<<< HEAD
 - [x] Git
-=======
-- [ ] Git
->>>>>>> cd0585f77a909af4e4bb6d4c893338c83481f0db
 
 ## M10 | GETTING STARTED
 
-- [ ] Intro
+- [x] Intro
 - [ ] Ecosystem
-- [ ] .NET
-- [ ] Console
-
-DConsole
-
-M1HelloWorld
+- [x] .NET
+- [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
+- [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
 
 ## M20 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] bool
-- [ ] string
-- [ ] int
-- [ ] double
-- [ ] Operatoren
-- [ ] Casting
-- [ ] Enums
+- [x] Datentypen
+- [x] [bool](../vadzim/CS-GK-VC-V/Demo-bool/Dbool.cs)
+- [x] [string](../vadzim/CS-GK-VC-V/Demo-String/Dstring.cs)
+- [x] [int](../vadzim/CS-GK-VC-V/Demo-int/Dint.cs)
+- [x] [double](../vadzim/CS-GK-VC-V/Demo-double/Ddouble.cs)
+- [x] Operatoren
+- [x] Casting
+- [x] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
+- [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
 
-Dbool, Dstring, Dint, Ddouble, Denum
+VS Installer > installierte Version ändern > sprachpakete
 
-M2MiniRechner
+Ddouble todo bei .Parse & Culture Info
+
+Demo-bits
 
 ## M30 | ARRAYS & CONTROLS
 
-- [ ] Arrays
-- [ ] if else
-- [ ] for
-- [ ] while & do while
-- [ ] switch
-
-DArray, DRandom
-
-M3Zahlenratespiel
+- [x] Arrays
+- [x] if else
+- [x] for
+- [x] while & do while
+- [x] switch
+- [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
 
 ## M40 | FUNCTIONS
 
@@ -55,8 +54,7 @@ M3Zahlenratespiel
 - [ ] return
 - [ ] overloads
 - [ ] out & ref args
-
-DMethods
+- [ ] [DMethods](../vadzim/CS-GK-VC-V/Demo-Methods/DMethods.cs)
 
 ## M50 | CLASSES & OOP
 
