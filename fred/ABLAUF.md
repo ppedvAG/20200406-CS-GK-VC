@@ -1,26 +1,37 @@
 # ABLAUF VOM KURS
+[git-commands](GIT-COMMANDS.md)
 
+[vscode-shortcuts](VS-SHORTCUTS.md)
+
+[csharp-snippets](CSHARP-SNIPPETS.md)
 ## M00 | WARMING UP
 
-- [ ] Greeter
-- [ ] VS
-- [ ] Git
+- [x] Greeter
+- [x] VS
+- [x] Git
+- [ ] Markdown, Erweiterung Markdown Editor
 
 ## M10 | GETTING STARTED
 
 - [ ] Intro
 - [ ] Ecosystem
 - [ ] .NET
-- [ ] Console
+- [x] [Console](../CS-GK-VC-F/Demo-Console/Program.cs)
 
-DConsole
 
 M1HelloWorld
 
 ## M20 | DATA TYPES, OPERATORS
 
-- [ ] Datentypen
-- [ ] bool
+- [x] Datentypen
+- [x] [bool](../Fred/CS-GK-VC-V/Demo-bool/Dbool.cs
+- [x] [string](../Fred/CS-GK-VC-V/Demo-String/Dstring.cs)
+- [x] [int](../Fred/CS-GK-VC-V/Demo-int/Dint.cs)
+- [x] [double](../Fred/CS-GK-VC-V/Demo-double/Ddouble.cs)
+- [x] Operatoren
+- [x] Casting
+- [x] [enum](../Fred/CS-GK-VC-V/Demo-enum/Denum.cs)
+- [x] [Ü MiniRechner](../Fred/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)bool
 - [ ] string
 - [ ] int
 - [ ] double

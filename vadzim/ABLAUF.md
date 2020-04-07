@@ -4,7 +4,11 @@
 
 - [x] Greeter
 - [x] VS
+<<<<<<< HEAD
 - [x] Git
+=======
+- [ ] Git
+>>>>>>> cd0585f77a909af4e4bb6d4c893338c83481f0db
 
 ## M10 | GETTING STARTED
 
