@@ -34,6 +34,22 @@ namespace Demo_Library_Consumer
 
 
             #endregion
+
+            #region Inheritance Vererbung
+            Random random = new Random();
+            Console.WriteLine($"{random.Next(2, 3)}");
+
+            MyRandom myRandom = new MyRandom();
+            Console.WriteLine($"{myRandom.NextMaxInclusive(2,3)}");
+
+            #endregion
+
+            #region Inheritense with Constructor
+            MyClassInhCtor myClassInhCtor = new MyClassInhCtor("mist1", 3, 5.4);
+            Console.WriteLine(myClassInhCtor.Beschreibemich());
+
+            #endregion
+
             Console.ReadKey();
         }
     }
