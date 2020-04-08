@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Transportmittel
 {
-    interface IKannTransportmittelTransportieren
-    {
-        public void Belade(Transportmittel transportmittel)
-        {
+    //interface IKannTransportmittelTransportieren
+    //{
+    //    public void Belade(Transportmittel transportmittel)
+    //    {
             
-        }
+    //    }
 
-    }
+    //}
 }

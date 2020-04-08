@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -100,33 +101,33 @@ namespace Transportmittel
         }
 
 
-        public void Belade(Transport fz)
-        {
-            if (this.Ladung == null)
-            {
-                this.Ladung = fz;
-                Console.WriteLine($"Ladevorgang von '{fz.Name}' auf '{this.Name}' erfolgreich.");
-            }
-            else
-            {
-                Console.WriteLine($"Ladeplatz auf  '{this.Name}' bereits durch '{this.Ladung.Name}' belegt.");
-            }
-        }
+        //public void Belade(Transport fz)
+        //{
+        //    if (this.Ladung == null)
+        //    {
+        //        this.Ladung = fz;
+        //        Console.WriteLine($"Ladevorgang von '{fz.Name}' auf '{this.Name}' erfolgreich.");
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"Ladeplatz auf  '{this.Name}' bereits durch '{this.Ladung.Name}' belegt.");
+        //    }
+        //}
 
 
 
-        public void Entlade()
-        {
-            if (this.Ladung != null)
-            {
-                Console.WriteLine($"Entladevorgang von '{this.Ladung.Name}' erfolgreich.");
-                this.Ladung = null;
-            }
-            else
-            {
-                Console.WriteLine($"'{this.Name}' hat keine Ladung geladen.");
-            }
-        }
+        //public void Entlade()
+        //{
+        //    if (this.Ladung != null)
+        //    {
+        //        Console.WriteLine($"Entladevorgang von '{this.Ladung.Name}' erfolgreich.");
+        //        this.Ladung = null;
+        //    }
+        //    else
+        //    {
+        //        Console.WriteLine($"'{this.Name}' hat keine Ladung geladen.");
+        //    }
+        //}
 
 
         public override void Beschleunige()
@@ -162,14 +163,23 @@ namespace Transportmittel
 
 
 
-    public class Flugzeug : Transportmittel
+    public class Flugzeug : Transportmittel, IEnumerable
     {
 
         public int anzahlSitzplätze { get; set; }
 
+        public List<string> Passagierliste { get; set; }
+
+        public string this[int i]
+        {
+            get { return Passagierliste[i]; }
+            set { Passagierliste[i] = value; }
+        }
+
         public Flugzeug(string Bezeichnung, int Anschaffungspreis, int hoechstGeschwindigkeit, int WievieleSitzplätze) : base(Bezeichnung, Anschaffungspreis, hoechstGeschwindigkeit)
         {
             anzahlSitzplätze = WievieleSitzplätze;
+            Passagierliste = new List<string>();
         }
 
         public override void Beschleunige()
@@ -197,6 +207,17 @@ namespace Transportmittel
         public override string BeschreibeDich()
         {
             return base.BeschreibeDich() + "und habe " + anzahlSitzplätze + " Sitzplätze ";
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            //return ((IEnumerable)Passagierliste).GetEnumerator();
+
+            foreach (var item in Passagierliste)
+            {
+                // Mit yiel verhindern wir dass die Methode bei "return" abgebrochen wird
+                yield return item;
+            }
         }
 
     }
