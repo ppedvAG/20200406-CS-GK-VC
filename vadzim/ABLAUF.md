@@ -2,7 +2,7 @@
 
 [git-commands](GIT-COMMANDS.md)
 
-[vscode-shortcuts](VS-SHORTCUTS.md)
+[vs-shortcuts](VS-SHORTCUTS.md)
 
 [csharp-snippets](CSHARP-SNIPPETS.md)
 
@@ -103,6 +103,8 @@ DLibrary, DLibraryConsumer
 - [ ] Hachtable
 
 DList, DStack, DQueue, DKeyValuePair, DDictionary
+
+beim Flugzeug Passagierliste
 
 ## M90 | WINDOWS FORMS
 
