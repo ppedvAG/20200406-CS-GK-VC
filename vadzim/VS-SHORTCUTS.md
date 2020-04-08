@@ -11,6 +11,8 @@
 | `shift alt up/down` | edit many lines |
 | `ctrl s` | save file |
 | `ctrl shift s` | save all files |
+| `ctrl m p` | unfold everything |
+| `ctrl m o` | collapse everything |
 
 ## REFACTORING
 

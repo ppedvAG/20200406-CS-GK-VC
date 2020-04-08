@@ -4,16 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{271F5382-754F-48A9-B812-92FE050575D8}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo_Library</RootNamespace>
-    <AssemblyName>Demo-Library</AssemblyName>
+    <ProjectGuid>{7B9785A7-DD24-4E74-837A-60156C4D2E54}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>MTransportConsumer</RootNamespace>
+    <AssemblyName>MTransportConsumer</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -23,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -41,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MyClass.cs" />
-    <Compile Include="MyClassInhCtor.cs" />
-    <Compile Include="MyClassWProps.cs" />
-    <Compile Include="MyRandom.cs" />
+    <Compile Include="Flugzeug.cs" />
+    <Compile Include="IKannAndereTransportieren.cs" />
+    <Compile Include="IMitRädern.cs" />
+    <Compile Include="PKW.cs" />
+    <Compile Include="Schiff.cs" />
+    <Compile Include="TConsumer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Transport.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

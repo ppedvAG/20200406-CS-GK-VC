@@ -8,6 +8,8 @@ namespace Demo_Library
 {
     public class MyClass
     {
+        string test = "bin ich privat?"; // Variablen ohne Modifier sind private
+
         // fields, sind immer private, klein geschrieben
         private string str_Field;
         private int int_Field;

@@ -40,14 +40,15 @@ Demo-bits
 
 ## M30 | ARRAYS & CONTROLS
 
-- [x] Arrays
+- [x] [Arrays](../vadzim/CS-GK-VC-V/Demo-Array/DArray.cs)
 - [x] if else
 - [x] for
 - [x] while & do while
 - [x] switch
+- [ ] [Demo-Random]()
 - [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
 
-## M40 | FUNCTIONS
+## M40 | METHODS
 
 - [x] arguments
 - [x] parameters
@@ -65,25 +66,32 @@ Demo-bits
 - [x] access modifier
 - [x] inctances / objects
 - [x] destructor
-
-DLibrary, DLibraryConsumer
-
-M5Fahrzeugpark, M5UseFahrpark
+- [x] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
+- [x] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
+- [x] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
+- [x] [MTransport](../vadzim/CS-GK-VC-V/MTransportConsumer/Transport.cs)
+- [x] [MTransportConsumer](../vadzim/CS-GK-VC-V/MTransportConsumer/TConsumer.cs)
 
 ## M60 | INHERITENCE / VERERBUNG
 
-- [ ] base
-- [ ] virtual & override methods
-- [ ] abstract methods
+- [x] base
+- [x] virtual & override methods
+- [x] abstract methods
+- [x] [DLibrary - MyRandom](../vadzim/CS-GK-VC-V/Demo-Library/MyRandom.cs)
+- [x] [DLibraryConsumer - Region Call MyRandom](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
+- [x] [DLibrary - MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library/MyClassInhCtor.cs)
+- [x] [DLibraryConsumer - Region Call MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
 
-DLibrary, DLibraryConsumer
+Ü 6
 
-## M70 | POLYMORPHISM
+## M70 | INTERFACES & POLYMORPHISM
 
 - [ ] interfaces
 - [ ] override vs overload
 
 DLibrary, DLibraryConsumer
+
+Übung
 
 ## M80 | GENERIC DATA STRUCTURES
 

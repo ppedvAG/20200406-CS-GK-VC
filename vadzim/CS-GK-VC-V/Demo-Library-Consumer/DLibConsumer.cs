@@ -12,7 +12,7 @@ namespace Demo_Library_Consumer
         static void Main(string[] args)
         {
 
-            #region Class without Constructor
+            #region Call MyClass / Class without Constructor
             MyClass myClass = new MyClass(); // obwohl wir keinen Konstruktor angelegt hatten
 
             string str = myClass.GetFields();
@@ -26,7 +26,7 @@ namespace Demo_Library_Consumer
             #endregion
 
 
-            #region Class with Props
+            #region Call MyClassWProps 
             // Klasse muss public sein, damit sie aus anderen Namensräumen ansprechbar ist
             MyClassWProps myClassWProps = new MyClassWProps("ein super string", 3); //Standard-Konstruktor ist mit unserem überschrieben worden
             
@@ -35,6 +35,19 @@ namespace Demo_Library_Consumer
             myClassWProps = null; // *todo
             #endregion
 
+
+            #region Inheritense / Call MyRandom
+            Random random = new Random();
+            Console.WriteLine($"{random.Next(2,3)}");
+            MyRandom myRandom = new MyRandom();
+            Console.WriteLine($"{myRandom.NextMaxInclusive(2,3)}");
+            #endregion
+
+
+            #region Inheritence / Call MyClassInhCtor
+            MyClassInhCtor myClassInhCtor = new MyClassInhCtor("mist1", 3, 5.4);
+            Console.WriteLine(myClassInhCtor.BeschreibeMich());
+            #endregion
 
             Console.ReadKey();
         }
