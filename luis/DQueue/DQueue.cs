@@ -27,6 +27,7 @@ namespace DQueue
             stringQueue.Enqueue("Element4");
             Console.WriteLine("Our Queue after the last command:");
             foreach (var item in stringQueue)
+            //foreach (string item in stringQueue)
             {
                 Console.WriteLine($"item: {item}");
             }
@@ -39,7 +40,7 @@ namespace DQueue
 
             // ===========================================================
             Console.WriteLine("\n ### MyQueue.Peek() ###");
-            Console.WriteLine($"stringQueue.Peek(): {stringQueue.Peek()}");
+            Console.WriteLine($"stringQueue.Peek(): {stringQueue.Peek()} \n gibt das älteste Element aus");
             Console.WriteLine("Our Queue after the last command:");
             foreach (var item in stringQueue)
             {
@@ -49,7 +50,7 @@ namespace DQueue
 
             // ===========================================================
             Console.WriteLine("\n ### MyQueue.Dequeue() ###");
-            Console.WriteLine($"stringQueue.Dequeue(): {stringQueue.Dequeue()}");
+            Console.WriteLine($"stringQueue.Dequeue(): {stringQueue.Dequeue()} \n löscht das älteste Element aus");
             Console.WriteLine("Our Queue after the last command:");
             foreach (var item in stringQueue)
             {

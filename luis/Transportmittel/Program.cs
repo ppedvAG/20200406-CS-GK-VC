@@ -22,38 +22,38 @@ namespace Transportmittel
 
 
 
-            PKW Herby = new PKW("VW", 3500, 520, 4);
+            //PKW Herby = new PKW("VW", 3500, 520, 4);
 
-            Herby.StarteMotor();
-            Herby.Beschleunige();
-            Herby.Beschleunige();
-            Herby.Beschleunige();
-            Herby.Beschleunige();
+            //Herby.StarteMotor();
+            //Herby.Beschleunige();
+            //Herby.Beschleunige();
+            //Herby.Beschleunige();
+            //Herby.Beschleunige();
 
-            Console.WriteLine(Herby.BeschreibeDich());
+            //Console.WriteLine(Herby.BeschreibeDich());
 
-            Herby.StopeMotor();
+            //Herby.StopeMotor();
 
-            Console.WriteLine(Herby.BeschreibeDich());
+            //Console.WriteLine(Herby.BeschreibeDich());
 
 
 
-            Schiff Moby = new Schiff("MS Moby Dick", 250000, 120, 98);
+            //Schiff Moby = new Schiff("MS Moby Dick", 250000, 120, 98);
 
-            Console.WriteLine(Moby.BeschreibeDich());
+            //Console.WriteLine(Moby.BeschreibeDich());
 
-            Moby.StarteMotor();
-            Moby.Beschleunige();
-            Moby.Beschleunige();
-            Moby.Beschleunige();
-            Moby.Beschleunige();
-            Moby.StopeMotor();
+            //Moby.StarteMotor();
+            //Moby.Beschleunige();
+            //Moby.Beschleunige();
+            //Moby.Beschleunige();
+            //Moby.Beschleunige();
+            //Moby.StopeMotor();
 
-            Console.WriteLine(Moby.BeschreibeDich());
+            //Console.WriteLine(Moby.BeschreibeDich());
 
-            System.Threading.Thread.Sleep(5000);
+            //System.Threading.Thread.Sleep(5000);
 
-            Console.WriteLine(Moby.BeschreibeDich());
+            //Console.WriteLine(Moby.BeschreibeDich());
 
 
 
@@ -61,17 +61,28 @@ namespace Transportmittel
 
             Fly.StarteMotor();
             Fly.Beschleunige();
-            Fly.Beschleunige();
-            Fly.Beschleunige();
-            Fly.Beschleunige();
-            Fly.StopeMotor();
+            //Fly.StopeMotor();
 
             Console.WriteLine(Fly.BeschreibeDich());
 
-            System.Threading.Thread.Sleep(5000);
+            //System.Threading.Thread.Sleep(5000);
 
-            Console.WriteLine(Fly.BeschreibeDich());
+            
+            
+            
+            Console.WriteLine($"flugzeug.Passagierliste: {Fly.Passagierliste}");
 
+            Fly.Passagierliste.Add("Anton");
+            Fly.Passagierliste.Add("Berta");
+            Fly.Passagierliste.Add("Cesar");
+
+            foreach (var item in Fly)
+            {
+                Console.WriteLine($"item: {item}");
+            }
+
+            // Dank der Eigenschaft "this[int i]" ist es möglich die Instanz über array-ähnliche Syntax anzuspechen
+            Console.WriteLine($"Fly[2]: {Fly[2]}");
 
             Console.ReadKey();
         }
