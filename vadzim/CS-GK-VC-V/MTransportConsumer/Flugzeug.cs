@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace MTransportConsumer
 {
-    public class Flugzeug : Transport, IKannAndereTransportieren, IMitRädern
+
+    public class Flugzeug : Transport, IKannAndereTransportieren, IMitRädern, IEnumerable
     {
         // ####################################################
         // evtl. FIELDS
@@ -17,9 +19,9 @@ namespace MTransportConsumer
         public int AktGeschw { get; set; }
 
         // Array<string> test = new Array<string>();
+        public Transport Ladung { get; set; }
 
         public List<string> Passagierliste { get; set; }
-        public Transport Ladung { get; set; }
 
         // damit können wir die Klasse iterierbar machen
         // Durch Iterieren, angewendet an der Klasse selbst, wollen wir hier die Einträge aus der Liste ausgeben
@@ -37,7 +39,7 @@ namespace MTransportConsumer
         {
             this.MaxFlughöhe = maxFH;
             this.AnzahlRäder = 10;
-            Passagierliste = new List<string>() { "Anna", "Kevin-Pascal", "Hannes" };
+            Passagierliste = new List<string>();
         }
 
         // ####################################################
@@ -72,6 +74,16 @@ namespace MTransportConsumer
             else
             {
                 Console.WriteLine($"'{this.Name}' hate keine Ladung gehabt.");
+            }
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            //return ((IEnumerable)Passagierliste).GetEnumerator();
+            foreach (var item in Passagierliste)
+            {
+                // Mit yield verhindern wir, dass die Methode bei return abgebrochen wird
+                yield return item;
             }
         }
     }
