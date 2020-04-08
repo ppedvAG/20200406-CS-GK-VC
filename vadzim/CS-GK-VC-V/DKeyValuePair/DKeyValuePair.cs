@@ -21,7 +21,7 @@ namespace DKeyValuePair
             Console.WriteLine("\n\n\t # USING KEY VALUE PAIRS #");
             // ===========================================================
             Console.WriteLine("\n ### value of keyvaluepair identifier ###");
-            Console.WriteLine($"MyKeyValuePair: {MyKeyValuePair}");
+            Console.WriteLine($"MyKeyValuePair: {MyKeyValuePair}"); //  [str1, str2]
 
 
             // ===========================================================

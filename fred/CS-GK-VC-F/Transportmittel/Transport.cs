@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -120,16 +121,27 @@ namespace Transportmittel
         }
 
     }
-    class Flugzeug : Transport, IKannAndereTransportieren, IMitRaedern
+    class Flugzeug : Transport, IKannAndereTransportieren, IMitRaedern, IEnumerable 
     {
-        public Flugzeug(string name, int Preis, int MaxGeschw) : base(name, Preis, MaxGeschw)
-        {
-        }
+    
         public int flughoehe { get; set; }
         public Transport Ladung { get; set; }
         public int AnzahlRaeder { get; set;}
-        
+        public List<string> Passagierliste { get; set; }
 
+        //damit können wir eine Klasse iterierbar machen
+        // durch Iterieren
+        public string this[int i]
+        {
+            get { return Passagierliste[i]; }
+            set { Passagierliste[i] = value; }
+        }
+
+
+        public Flugzeug(string name, int Preis, int MaxGeschw) : base(name, Preis, MaxGeschw)
+        {
+            Passagierliste = new List<string>();
+        }
         public void Belade(Transport transport)
         {
             if (this.Ladung == null)
@@ -159,6 +171,17 @@ namespace Transportmittel
             else
             {
                 Console.WriteLine($"'{this.sName}' hat keine Ladung geladen.");
+            }
+        }
+
+        public IEnumerator GetEnumerator()
+        {
+            //return ((IEnumerable)Passagierliste).GetEnumerator();
+            foreach (var item in Passagierliste)
+            {
+                //Mit yield verhindern wir, dass die Methode bei return abgebrochen wird
+                yield return item;
+
             }
         }
     }
