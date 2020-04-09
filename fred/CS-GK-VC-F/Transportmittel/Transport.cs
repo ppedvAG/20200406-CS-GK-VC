@@ -46,7 +46,7 @@ namespace Transportmittel
 
         }
     }
-    class PKW : Transport, IMitRaedern
+    public class PKW : Transport, IMitRaedern
     {
         public PKW(string name, int Preis, int MaxGeschw) : base(name, Preis, MaxGeschw)
         {
