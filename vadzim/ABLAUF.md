@@ -12,13 +12,19 @@
 - [x] VS
 - [x] Git
 
+VS Installer > installierte Version ändern > sprachpakete
+
+sln props > startup projects > current
+
 ## M10 | GETTING STARTED
 
 - [x] Intro
-- [ ] Ecosystem
-- [x] .NET
+- [x] Ecosystem
+- [x] .NET [Dokumentation](https://docs.microsoft.com/de-de/dotnet/api/?view=netframework-4.8)
 - [x] [M1HelloWorld](../vadzim/CS-GK-VC-V/M1HelloWorld/M1HelloWorld.cs)
 - [x] [DConsole](../vadzim/CS-GK-VC-V/Demo-Console/DConsole.cs)
+
+Übersicht von Klassen und Interfaces, die man im Kurs vor allem braucht
 
 ## M20 | DATA TYPES, OPERATORS
 
@@ -31,12 +37,7 @@
 - [x] Casting
 - [x] [enum](../vadzim/CS-GK-VC-V/Demo-enum/Denum.cs)
 - [x] [Ü MiniRechner](../vadzim/CS-GK-VC-V/M2MiniRechner/M2MiniRechner.cs)
-
-VS Installer > installierte Version ändern > sprachpakete
-
-Ddouble todo bei .Parse & Culture Info
-
-Demo-bits
+- [ ] [bits](../vadzim/CS-GK-VC-V/Demo-bits/Dbits.cs)
 
 ## M30 | ARRAYS & CONTROLS
 
@@ -45,7 +46,7 @@ Demo-bits
 - [x] for
 - [x] while & do while
 - [x] switch
-- [ ] [Demo-Random]()
+- [ ] [Demo-Random](../vadzim/CS-GK-VC-V/Demo-Random/DRandom.cs)
 - [x] [M3Zahlenratespiel](../vadzim/CS-GK-VC-V/M3Zufallszahl/M3Zufallszahl.cs)
 
 ## M40 | METHODS
@@ -69,8 +70,8 @@ Demo-bits
 - [x] [DLibrary - MyClass](../vadzim/CS-GK-VC-V/Demo-Library/MyClass.cs) <!-- der bessere Name: MyClassWFields -->
 - [x] [DLibrary - MyClassWProps](../vadzim/CS-GK-VC-V/Demo-Library/MyClassWProps.cs)
 - [x] [DLibraryConsumer](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-- [x] [MTransport](../vadzim/CS-GK-VC-V/MTransportConsumer/Transport.cs)
-- [x] [MTransportConsumer](../vadzim/CS-GK-VC-V/MTransportConsumer/TConsumer.cs)
+- [x] [Ü MTransport](../vadzim/CS-GK-VC-V/MTransport/Transport.cs)
+- [x] [Ü MTransportConsumer](../vadzim/CS-GK-VC-V/MTransport/TConsumer.cs)
 
 ## M60 | INHERITENCE / VERERBUNG
 
@@ -81,40 +82,35 @@ Demo-bits
 - [x] [DLibraryConsumer - Region Call MyRandom](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
 - [x] [DLibrary - MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library/MyClassInhCtor.cs)
 - [x] [DLibraryConsumer - Region Call MyClassInhCtor](../vadzim/CS-GK-VC-V/Demo-Library-Consumer/DLibConsumer.cs)
-
-Ü 6
+- [x] [Ü Flugzeug](../vadzim/CS-GK-VC-V/MTransport/Flugzeug.cs)
+- [x] [Ü PKW](../vadzim/CS-GK-VC-V/MTransport/PKW.cs)
+- [x] [Ü Schiff](../vadzim/CS-GK-VC-V/MTransport/Schiff.cs)
 
 ## M70 | INTERFACES & POLYMORPHISM
 
-- [ ] interfaces
-- [ ] override vs overload
+- [x] interfaces
+- [x] override vs overload
+- [x] [Ü IKannAndereTransportieren](../vadzim/CS-GK-VC-V/MTransport/IKannAndereTransportieren.cs)
+- [x] [Ü IMitRädern](../vadzim/CS-GK-VC-V/MTransport/IMitRädern.cs)
 
 DLibrary, DLibraryConsumer
 
-Übung
-
 ## M80 | GENERIC DATA STRUCTURES
 
-- [ ] List`<T>`
-- [ ] Stack`<T>`
-- [ ] Queue`<T>`
-- [ ] KeyValuePair`<T1, T2>`
-- [ ] Dictionary`<T1, T2>`
-- [ ] Hachtable
-
-DList, DStack, DQueue, DKeyValuePair, DDictionary
-
-beim Flugzeug Passagierliste
+- [x] [List`<T>`](../vadzim/CS-GK-VC-V/Demo-List/DList.cs)
+- [x] [Stack`<T>`](../vadzim/CS-GK-VC-V/Demo-Stack/DStack.cs)
+- [x] [Queue`<T>`](../vadzim/CS-GK-VC-V/Demo-Queue/DQueue.cs)
+- [x] [KeyValuePair`<T1, T2>`](../vadzim/CS-GK-VC-V/Demo-KeyValuePair/DKeyValuePair.cs)
+- [x] [Dictionary`<T1, T2>`](../vadzim/CS-GK-VC-V/Demo-Dictionary/DDictionary.cs)
+- [x] Hachtable
+- [ ] [Ü Passagierliste](../vadzim/CS-GK-VC-V/MTransport/Flugzeug.cs)
 
 ## M90 | WINDOWS FORMS
 
-- [ ] partial classes
-- [ ] widgets / components
-- [ ] component props
-
-DWinForm
-
-M9TicTacToe
+- [x] partial classes
+- [x] widgets / components
+- [x] component props
+- [ ] [TicTacToe](../vadzim/CS-GK-VC-V/Demo-WinForm/DWinForm.cs)
 
 ## M100 | DELEGATES & EVENTS
 
@@ -125,29 +121,35 @@ M9TicTacToe
 
 Ddelegate
 
+Ü Kollidierende Buttons
+
+Ü Einfacher Taschenrechner?
+
+Klasse Timing?
+
+Klasse Stopwatch?
+
 ## M110 | Exception-Handling​
 
-to be continued..
-
-- [ ]
-- [ ]
-- [ ]
+- [ ] Exception & throw
+- [ ] try catch finally
+- [ ] Exception types
 
 ## M120 | Unit-Tests
 
-to be continued..
-
-- [ ]
-- [ ]
-- [ ]
+- [ ] TestPackages & TestProject
+- [ ] TestClasses, TestMethods, TestAnnotations
+- [ ] Assert
 
 ## M130 | File Access Dateizugriff​
 
-to be continued..
+- [ ] SaveFileDialog & OpenFileDialog
+- [ ] StreamReader & StreamWriter
+- [ ] JSON, serialize & deserialize 
 
-- [ ]
-- [ ]
-- [ ]
+Ü TransportListe
+
+Ü Anmeldeformular? / Gästeliste?
 
 ## M140 | Datenbankzugriff mit Entity Framework​
 
