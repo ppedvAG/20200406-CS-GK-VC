@@ -114,10 +114,10 @@ DLibrary, DLibraryConsumer
 
 ## M100 | DELEGATES & EVENTS
 
-- [ ] custom delegates
-- [ ] built-in delegates
-- [ ] anonumous functions
-- [ ] event handler
+- [x] custom delegates
+- [x] built-in delegates
+- [x] anonumous functions
+- [x] event handler
 
 Ddelegate
 
@@ -131,23 +131,26 @@ Klasse Stopwatch?
 
 ## M110 | Exception-Handling​
 
-- [ ] Exception & throw
-- [ ] try catch finally
-- [ ] Exception types
+- [x] Exception & throw
+- [x] try catch finally
+- [x] Exception types
+- [x] [standard exception](https://docs.microsoft.com/de-de/dotnet/standard/design-guidelines/using-standard-exception-types)
+- [x] *todo Überblick für verbreitete Exceptions. z.B. ForamtE ist beim oberen Link nicht dabei
+- [x] [Demo-Exception](../vadzim/CS-GK-VC-V/Demo-Exceptions/Form1.cs)
 
 ## M120 | Unit-Tests
 
-- [ ] TestPackages & TestProject
-- [ ] TestClasses, TestMethods, TestAnnotations
-- [ ] Assert
+- [x] TestPackages & TestProject
+- [x] TestClasses, TestMethods, TestAnnotations
+- [x] Assert-Klasse
+- [x] [Demo-UnitTest1](../vadzim/CS-GK-VC-V/Demo-UnitTests/UnitTest1.cs)
 
 ## M130 | File Access Dateizugriff​
 
-- [ ] SaveFileDialog & OpenFileDialog
-- [ ] StreamReader & StreamWriter
-- [ ] JSON, serialize & deserialize 
-
-Ü TransportListe
+- [x] SaveFileDialog & OpenFileDialog
+- [x] StreamReader & StreamWriter
+- [x] JSON, serialize & deserialize 
+- [x] [Ü TransportListe (M10Ü)](../vadzim/CS-GK-VC-V/M13Serialisierung/Form1.cs)
 
 Ü Anmeldeformular? / Gästeliste?
 

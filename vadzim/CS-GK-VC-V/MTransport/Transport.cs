@@ -48,12 +48,15 @@ namespace MTransportConsumer
         }
 
         //Methoden
-        public int Beschleunigen()
+        public int Beschleunigen(int km)
         {
             if (AktuelleGeschwindigkeit < MaximalGeschwindigkeit && Zustand == TransportZustand.Fahrend)
             {
-                AktuelleGeschwindigkeit += 1;
-
+                AktuelleGeschwindigkeit += km;
+            }
+            else
+            {
+                AktuelleGeschwindigkeit = MaximalGeschwindigkeit;
             }
             return AktuelleGeschwindigkeit;
         }
