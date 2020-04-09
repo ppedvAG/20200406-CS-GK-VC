@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Random", "Demo-Random\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Stack", "Demo-Stack\Demo-Stack.csproj", "{09DDF4DC-DC47-4E0C-ABB4-E479625F2532}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M10ButtonKollision", "M10ButtonKollision\M10ButtonKollision.csproj", "{2DD35AE9-2F0E-4022-9AA2-A9A1FF86EBD2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{09DDF4DC-DC47-4E0C-ABB4-E479625F2532}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09DDF4DC-DC47-4E0C-ABB4-E479625F2532}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09DDF4DC-DC47-4E0C-ABB4-E479625F2532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD35AE9-2F0E-4022-9AA2-A9A1FF86EBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD35AE9-2F0E-4022-9AA2-A9A1FF86EBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD35AE9-2F0E-4022-9AA2-A9A1FF86EBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD35AE9-2F0E-4022-9AA2-A9A1FF86EBD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
