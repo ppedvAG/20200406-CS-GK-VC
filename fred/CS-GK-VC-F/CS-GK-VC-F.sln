@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Array", "Demo-Array\De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Random", "Demo-Random\Demo-Random.csproj", "{A1399012-5BA8-4885-88F1-C6E9F0B44BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-WindowsForm", "Demo-WindowsForm\Demo-WindowsForm.csproj", "{20D00B65-94BA-4023-A64A-9166C3FB9CAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{A1399012-5BA8-4885-88F1-C6E9F0B44BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1399012-5BA8-4885-88F1-C6E9F0B44BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1399012-5BA8-4885-88F1-C6E9F0B44BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D00B65-94BA-4023-A64A-9166C3FB9CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D00B65-94BA-4023-A64A-9166C3FB9CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D00B65-94BA-4023-A64A-9166C3FB9CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D00B65-94BA-4023-A64A-9166C3FB9CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
