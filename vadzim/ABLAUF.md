@@ -156,12 +156,11 @@ Klasse Stopwatch?
 
 ## M140 | Datenbankzugriff mit Entity Framework​
 
-- [ ] entities
-- [ ] models
-- [ ] dbcontext
-- [ ] dbset
-
-DEntityFrCore
+- [x] entities
+- [x] models
+- [x] dbcontext
+- [x] dbset
+- [ ] [Demo EntityFrCore](../vadzim/CS-GK-VC-V/Demo-EntityFrameworkCore/DEFCore.cs)
 
 ## M150 | Datenbankzugriff mit ADO.NET​
 
@@ -170,3 +169,6 @@ to be continued..
 - [ ]
 - [ ]
 - [ ]
+
+Cheatsheets syntax
+listen von Klassen, Exception
